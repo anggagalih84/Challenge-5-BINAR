@@ -13,7 +13,7 @@ const port = 5250
 const usersRead = fs.readFileSync('./public/data/user.json');
 const users = JSON.parse(usersRead);
 
-app.use(express.json()) //
+app.use(express.json()) // membaca json
 app.set('view engine', 'ejs') //memanggil ejs
 app.use(express.static('public')) //memanggil folder file (public)
 
