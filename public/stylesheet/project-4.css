@@ -1,0 +1,194 @@
+/* css*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.background {
+    background-color: rgba(156, 131, 95, 1);
+    width: 1351px;
+    height: 900px;
+}
+
+.background h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    color: rgba(249, 178, 61, 1);
+    position: absolute;
+    top: 40px;
+    left: 218px;
+}
+
+.vs {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    color: rgba(189, 0, 0, 1);
+    position: absolute;
+    transform: rotate(35deg);
+    top: 0px;
+    left: auto;
+}
+
+.info {
+    position: absolute;
+    top: 350px;
+    left: 520px;
+    padding: 10px;
+    text-align: center;
+    transform: rotate(-35deg);
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    background: green;
+}
+
+.info .result {
+    background-color: rgba(156, 131, 95, 1);
+    padding: 20px;
+    position: absolute;
+    top: -2px;
+    left: 0px;
+    width: 250px;
+    height: 300px;
+}
+
+.player h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    letter-spacing: 10px;
+    position: absolute;
+    top: 130px;
+    left: 296px;
+}
+
+.com h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    letter-spacing: 10px;
+    position: absolute;
+    top: 130px;
+    left: 865px;
+}
+
+.img {
+    background-image: url(/assets/logo.png);
+    width: 72px;
+    height: 72px;
+    position: absolute;
+    top: 27px;
+    left: 119px;
+}
+
+.img-1 {
+    background-image: url(/assets/<.png);
+    background-repeat: no-repeat;
+    width: 55px;
+    height: 87px;
+    position: absolute;
+    top: 45px;
+    left: 37px;
+}
+
+.refresh {
+    position: absolute;
+    top: 600px;
+    left: 615px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: none;
+}
+
+.refresh:hover {
+    background-color: rgba(196, 196, 196, 1);
+    display: block;
+}
+
+.active {
+    background-color: rgba(196, 196, 196, 1);
+}
+
+button.active {
+    background-color: rgba(196, 196, 196, 1);
+}
+
+.com .rock-com {
+    position: absolute;
+    top: 190px;
+    left: 850px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.com .paper-com {
+    position: absolute;
+    top: 350px;
+    left: 850px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.com .scissors-com {
+    position: absolute;
+    top: 520px;
+    left: 850px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.player .rock {
+    position: absolute;
+    top: 190px;
+    left: 350px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: none;
+}
+
+.player .rock:hover {
+    background-color: rgba(196, 196, 196, 1);
+    display: block;
+}
+
+.player .paper {
+    position: absolute;
+    top: 350px;
+    left: 350px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: none;
+}
+
+.player .paper:hover {
+    background-color: rgba(196, 196, 196, 1);
+    display: block;
+}
+
+.player .scissors {
+    position: absolute;
+    top: 520px;
+    left: 350px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: none;
+}
+
+.player .scissors:hover {
+    background-color: rgba(196, 196, 196, 1);
+    display: block;
+}
