@@ -26,9 +26,9 @@ app.post('/login', (req, res) => {
 
     const userGet = users.find(userGet => userGet.username === username && userGet.password === pass)
     if (userGet) {
-        res.status(200).json({ message: "Login sukses" });
+        res.status(200).json({ message: "Login Berhasil, Have Fun!" });
     } else {
-        res.status(401).json({ message: "Login gagal." });
+        res.status(401).json({ message: "Login Gagal, yuk bisa yuk" });
 
     }
 
