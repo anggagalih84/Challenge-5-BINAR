@@ -4,7 +4,6 @@
 //console.log('free memory: ', os.freemem());
 
 
-
 const express = require('express')
 const app = express()
 const fs = require('fs')
@@ -22,7 +21,6 @@ app.get('/game', (req, res) => res.render('project-4')) // masuk ke halaman ke d
 app.get('/home', (req, res) => res.render('project')) // kembali ke halaman pertama 
 
 app.post('/login', (req, res) => {
-    //console.log(user)
     const username = req.body.username
     const pass = req.body.password
 
